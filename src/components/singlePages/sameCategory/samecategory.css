@@ -1,0 +1,135 @@
+.sameCategory{
+    /* border-bottom: 1px  solid #aaa; */
+    margin-left: 340px;
+    margin-right: 640px;
+    margin-top: 10px;
+    /* display: flex; */
+    /* position: relative; */
+}
+
+.sameCategory .items{
+    margin-top: 10px;
+}
+
+.sameCategory .items .box {
+	background-color: #fff;
+	display: block;
+	position: relative;
+	margin: 0 15px 80px 0;
+    /* justify-content: space-between; */
+}
+
+.sameCategory .items .images {
+	position: relative;
+	height: 10px;
+}
+
+.sameCategory .items img {
+	width: 200px;
+	height: 150px;
+	object-fit: cover;
+}
+
+.sameCategory .category {
+	padding-top: 10px;
+}
+
+.sameCategory .text h1 {
+	padding-top: 10px;
+    font-size: 9px;
+	margin: 0;
+    display: block;
+}
+
+.kds-title {
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.kds-title {
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    margin-top: 15px;
+    color: #333;
+    font-size: 24px;
+    font-family: SFD-Bold;
+}
+
+.kds-title:before {
+    width: 5px;
+    height: 21px;
+    position: absolute;
+    top: 3px;
+    left: -20px;
+    content: '';
+    background: #ed2e2e;
+}
+
+.clearfix:after, .clearfix:before {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+.kscli-view-by-date {
+    /* float: right; */
+    /* padding-bottom: 10px; */
+    margin-left: 150px;
+}
+
+.ksclivbd-title {
+    height: 28px;
+    font-family: SFD-Medium;
+    font-size: 15px;
+    line-height: 80px;
+    margin-left: 100px;
+    color: #555;
+    /* margin-right: 0px; */
+    text-transform: none;
+}
+.fl {
+    float: left;
+}
+
+.ksclivbd-form>li {
+    float: left;
+    margin-right: 10px;
+    height: 28px;
+}
+
+.dk-selected {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .sameCategory .items .box {
+        background-color: #fff;
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sameCategory .items .images {
+        position: relative;
+        display: flex;
+        height: 0;
+        padding-left: 0;
+    }
+    
+    .sameCategory .items img {
+        width: 100px;
+        height: 80px;
+        /* object-fit: cover; */
+    }
+    
+    .sameCategory .category {
+        padding-top: 100px;
+    }
+    
+    .sameCategory .text h1 {
+        padding-top: 10px;
+        margin: 0;
+    }
+}

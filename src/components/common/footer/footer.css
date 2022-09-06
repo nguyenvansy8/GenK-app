@@ -1,0 +1,248 @@
+footer {
+	background-color: #222;
+	color: #fff;
+	padding-left: 200px;
+	/* padding-top: 2px; */
+	margin-top: 200px;
+    /* height: 450px; */
+}
+
+.container .logoFooter {
+    /* width: 100%; */
+	border-bottom: 1px solid red;
+	height: 70px;
+}
+
+.right{
+    margin-left: 600px;
+    display: block;
+    position: relative;
+    top: -330px;
+}
+
+.clearfix:after, .clearfix:before {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+ol, ul {
+    list-style: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.right .box .i-admicro {
+    background-position: -92px -122px;
+    width: 65px;
+    height: 15px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+a.btn-messenger-lightbox {
+    display: inline-flex;
+    margin-top: 15px;
+    height: 24px;
+    padding: 0 15px;
+    background: #0084ff;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    margin-right: 10px;
+}
+/*
+footer .container .box{
+    margin-top: 10px;
+    color: crimson;
+    grid-template-columns: repeat(9, 1fr);
+} */
+
+@media only screen and (max-width: 768px) {
+	footer {
+		background-color: #222;
+		color: #fff;
+		width: 400%;
+		padding-left: 100px;
+		padding-top: 20px;
+		margin-top: 50px;
+	}
+}
+
+.gfwm-list .gfwmli {
+    float: left;
+    margin-right: 40px;
+}
+
+.genk-footer-wrapper .top-footer {
+    border-bottom: 1px solid #ed2e2e;
+}
+
+.top-footer .w1030, .top-footer .w1040 {
+    position: relative;
+}
+
+.gfw-top-wrapper {
+    padding: 25px 0;
+    border-bottom: 1px solid #333;
+}
+
+.clearfix:after, .clearfix:before {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+.top-footer .logo-genk {
+    background-position: 0 0;
+    width: 164px;
+    height: 23px;
+    display: block;
+    float: left;
+    background-size: 210%;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.gfw-menu {
+    display: block;
+    clear: both;
+    height: 60px;
+    margin-left: 60px;
+}
+
+.clearfix:after, .clearfix:before {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.gfwm-list .gfwmli {
+    float: left;
+    margin-right: 40px;
+}
+
+.gfwm-list .gfwmli a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: SFD-Medium;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.bottom-footer .w1030, .bottom-footer .w1040 {
+    padding: 35px 0;
+}
+
+.gfwbf-left {
+    width: 515px;
+    float: left;
+    margin-right: 80px;
+    margin-left: 100px;
+}
+
+.w190 {
+    width: 190px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bottom-footer p {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.bottom-footer p a {
+    text-decoration: none;
+    color: #ed2e2e;
+}
+
+.gfwbf-right {
+    width: 375px;
+    margin-left: 710px;
+}
+
+.contact {
+    font-family: SFD-Medium;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 12px;
+}
+.i-admicro {
+    background-position: -92px -122px;
+    width: 65px;
+    height: 15px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+a.btn-messenger-lightbox {
+    display: inline-flex;
+    margin-top: 15px;
+    height: 24px;
+    padding: 0 15px;
+    background: #0084ff;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    margin-right: 10px;
+}
+
+.bottom-footer p {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    color: #999;
+    margin-bottom: 20px;
+}

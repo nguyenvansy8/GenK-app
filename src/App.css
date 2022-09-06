@@ -1,0 +1,56 @@
+.container{
+  max-width: 90%;
+  margin: auto;
+}
+/* 
+.flexSB{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paddingTB{
+  padding: 40px 0;
+} */
+
+.logo {
+  height: 45px;
+  width: 180px;
+  background-color: #222;
+}
+
+.channel {
+  background-color: #2e2e2e;
+  display: flex;
+  padding-left: 300px;
+}
+
+.channel a{
+  text-decoration-line: none !important;
+}
+
+.flex {
+  display: flex;
+  text-decoration-line: none;
+}
+.flex a{
+  text-decoration-line: none !important;
+} 
+
+.paddingSmall {
+  padding: 10px 10px 0px 10px;
+  margin-left: 200px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.category{
+  font-size: 12px;
+  font-weight: 500;
+  color: #aaa;
+  /* padding: 5px 10px; */
+  letter-spacing: 2px;
+
+}

@@ -1,0 +1,152 @@
+.model {
+	margin: 30px 0;
+	padding-left: 200px;
+}
+
+.model a {
+	color: #000;
+	text-decoration-line: none !important;
+}
+
+.model a:hover{
+	color: #aaa;
+}
+
+.model .box {
+	position: relative;
+	padding: 5px;
+}
+
+.model img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: -1;
+	border-radius: 10px;
+}
+
+.model .container {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(8, 6.6vh);
+	grid-gap: 10px;
+}
+
+:nth-child(1) {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 6;
+}
+
+:nth-child(2) {
+	grid-column-start: 5;
+	grid-column-end: 7;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+:nth-child(3) {
+	grid-column-start: 5;
+	grid-column-end: 6;
+	grid-row-start: 7;
+	grid-row-end: 9;
+}
+
+:nth-child(4) {
+	grid-column-start: 6;
+	grid-column-end: 7;
+	grid-row-start: 7;
+	grid-row-end: 7;
+}
+
+:nth-child(5) {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 9;
+	grid-row-end: 13;
+}
+
+:nth-child(6) {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 9;
+	grid-row-end: 13;
+}
+
+:nth-child(7) {
+	grid-column-start: 5;
+	grid-column-end: 6;
+	grid-row-start: 12;
+	grid-row-end: 12;
+}
+
+:nth-child(8) {
+	grid-column-start: 6;
+	grid-column-end: 7;
+	grid-row-start: 12;
+	grid-row-end: 12;
+}
+
+@media only screen and (max-width: 768px) {
+	.text .title{
+		font-size: 12px;
+	}
+	.text .author-flex{
+		font-size: 12px;
+	}
+	:nth-child(1) {
+		grid-column-start: 1;
+		grid-column-end: 50;
+		grid-row-start: 1;
+		grid-row-end: 6;
+	}
+	:nth-child(2) {
+		grid-column-start: 50;
+		grid-column-end: 80;
+		grid-row-start: 1;
+		grid-row-end: 3;
+	}
+	
+	:nth-child(3) {
+		grid-column-start: 50;
+		grid-column-end: 65;
+		grid-row-start: 9;
+		grid-row-end: 9;
+	}
+	
+	:nth-child(4) {
+		grid-column-start: 65;
+		grid-column-end: 80;
+		grid-row-start: 9;
+		grid-row-end: 9;
+	}
+	
+	:nth-child(5) {
+		grid-column-start: 1;
+		grid-column-end: 25;
+		grid-row-start: 9;
+		grid-row-end: 13;
+	}
+	
+	:nth-child(6) {
+		grid-column-start: 25;
+		grid-column-end: 50;
+		grid-row-start: 9;
+		grid-row-end: 13;
+	}
+	
+	:nth-child(7) {
+		grid-column-start: 50;
+		grid-column-end: 65;
+		grid-row-start: 12;
+		grid-row-end: 12;
+	}
+	
+	:nth-child(8) {
+		grid-column-start: 65;
+		grid-column-end: 80;
+		grid-row-start: 12;
+		grid-row-end: 12;
+	}
+}

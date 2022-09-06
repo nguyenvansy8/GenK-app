@@ -1,0 +1,37 @@
+main .container {
+	display: flex;
+	justify-content: space-between;
+	height: 60vh;
+	padding-left: 260px;
+	padding-right: 400px;
+}
+
+.mainContent {
+	width: 110%;
+	/* background: crimson; */
+}
+
+.sideContent {
+	width: 10%;
+	/* background: chartreuse; */
+}
+
+@media only screen and (max-width: 768px) {
+	main .container {
+		display: flex;
+		justify-content: space-between;
+		height: 60vh;
+		padding-left: 230px;
+		padding-right: 40px;
+	}
+
+    .mainContent {
+        width: 200%;
+        /* background: crimson; */
+    }
+    
+    .sideContent {
+        width: 100%;
+        /* background: chartreuse; */
+    }
+}

@@ -1,0 +1,182 @@
+.head {
+	cursor: pointer;
+	margin-left: 50px;
+}
+
+.channel li a {
+	color: #aaa;
+}
+
+.channel li a:hover {
+	color: #fff;
+	cursor: pointer;
+}
+
+header {
+	background-color: #222;
+	color: #fff;
+}
+
+header li {
+	margin-right: 30px;
+}
+
+header li a {
+	color: #fff;
+}
+
+header li a:hover {
+	color: crimson;
+	cursor: pointer;
+}
+
+header li a:active{
+	color: red;
+}
+
+.video {
+	margin-top: 15px;
+	margin-left: 200px;
+	padding-right: 10px;
+}
+
+.dropdown {
+	font-size: 25px;
+	background: none;
+	color: #fff;
+	display: block;
+	border: none;
+	position: relative;
+}
+
+/* .dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown .content {
+	display: none;
+	position: absolute;
+	background-color: ;
+	top: 120px;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	padding: 12px 16px;
+	z-index: 1;
+} */
+
+.flex li:active{
+	color: red;
+}
+
+.container .flex .flex .navbar a:active{
+	color: red;
+}
+
+.nav-links .mega-box {
+	opacity: 0;
+	visibility: hidden;
+	z-index: 500;
+}
+
+.nav-links .search {
+	padding-top: 100px;
+}
+
+.nav-links li:hover .mega-box {
+	opacity: 1;
+	visibility: visible;
+}
+.mega-box {
+	position: absolute;
+	top: 120px;
+	width: 100%;
+	left: 0;
+}
+
+.mega-box .content {
+	background: #222;
+	color: #000;
+	padding: 25px 20px;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	/* opacity: 0; */
+	/* visibility: hidden; */
+	transition: all 0.3s ease;
+}
+
+.content .row {
+	width: calc(25% - 30px);
+	line-height: 45px;
+}
+
+.content .row header {
+	color: #000;
+	font-size: 20px;
+	font-weight: 50;
+}
+
+.content .row .title {
+	border-bottom: 1px solid red;
+	margin-left: 20px;
+	background-color: #222;
+}
+/* 
+.content .row .title1{
+	margin-left: 20px;
+} */
+
+.content .row .mega-link {
+	margin-left: 0;
+}
+
+.row .mega-link li {
+	padding: 0 2px;
+}
+
+.row .mega-link li a {
+	padding: 0 20px;
+	color: #fff;
+	font-size: 17px;
+	display: block;
+}
+
+@media only screen and (max-width: 768px) {
+
+	/* .head {
+		cursor: pointer;
+		margin-left: 100px;
+	}
+	
+	.channel li a {
+		color: #aaa;
+	}
+	
+	.channel li a:hover {
+		color: #fff;
+		cursor: pointer;
+	} */
+
+	.head {
+		cursor: pointer;
+		margin-left: 10px;
+	}
+	.channel li {
+		/* margin-left: 10px; */
+		font-size: 20px;
+	}
+	header {
+		background-color: #000;
+		width: 400%;
+	}
+
+	.mega-box {
+		position: absolute;
+		top: 135px;
+		width: 400%;
+	}
+	.content .row {
+		width: calc(35% - 100px);
+		line-height: 45px;
+	}
+}
